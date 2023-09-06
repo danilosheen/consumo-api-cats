@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container-cats {
   margin: 60px auto;
   display: flex;
@@ -17,13 +23,12 @@
   gap: 5px;
   align-items: center;
   justify-content: center;
-
 }
 
 .list-cats li {
   list-style: none;
   margin-bottom: 16px;
-  flex-grow: .15;
+  flex-grow: 0.15;
   width: 300px;
   height: 300px;
 }
@@ -33,7 +38,7 @@
   height: 100%;
 }
 
-.rodape{
+.rodape {
   display: flex;
   align-items: center;
   justify-content: center;
